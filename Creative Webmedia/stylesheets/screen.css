@@ -640,7 +640,7 @@ header {
 @media only screen and (min-width: 340px) and (max-width: 800px) {
   /* line 5, ../sass/phone.sass */
   .container {
-    min-width: 340px;
+    width: 340px;
     overflow: hidden;
   }
 
@@ -734,7 +734,7 @@ header {
     position: absolute;
     margin-top: 0;
     background-color: #7ed321;
-    min-width: 340px;
+    width: 340px;
     z-index: 9999;
     padding-top: 15px;
   }
@@ -783,7 +783,7 @@ header {
   /* line 102, ../sass/phone.sass */
   .content {
     display: block;
-    min-width: 340px;
+    width: 340px;
     margin: 0;
   }
   /* line 106, ../sass/phone.sass */
