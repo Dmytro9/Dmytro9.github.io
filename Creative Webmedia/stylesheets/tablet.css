@@ -1,0 +1,139 @@
+/*** TABLET TABLET TABLET **
+ * ================================================== */
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
+  /* line 6, ../sass/tablet.sass */
+  .container {
+    width: 800px;
+  }
+
+  /* line 9, ../sass/tablet.sass */
+  header {
+    margin-bottom: 70px;
+  }
+
+  /* line 12, ../sass/tablet.sass */
+  .header__logo {
+    margin-left: 115px;
+  }
+
+  /* line 15, ../sass/tablet.sass */
+  .header_login {
+    margin: 25px 145px 40px 100px;
+  }
+
+  /* line 18, ../sass/tablet.sass */
+  .header_login__text {
+    display: none;
+  }
+
+  /* line 21, ../sass/tablet.sass */
+  .contentmart {
+    margin-left: 50px;
+    font-weight: 600;
+  }
+  /* line 24, ../sass/tablet.sass */
+  .contentmart h3 {
+    color: #5ba6fc;
+    font-size: 12px;
+  }
+  /* line 27, ../sass/tablet.sass */
+  .contentmart h3 span {
+    color: #000;
+  }
+  /* line 29, ../sass/tablet.sass */
+  .contentmart h1 {
+    padding-top: 5px;
+    font-size: 22px;
+  }
+
+  /* line 33, ../sass/tablet.sass */
+  .aside {
+    width: 220px;
+    float: right;
+    padding-right: 15px;
+  }
+  /* line 38, ../sass/tablet.sass */
+  .aside a {
+    font-size: 12px;
+  }
+  /* line 40, ../sass/tablet.sass */
+  .aside h2 {
+    font-size: 12px;
+    margin-top: 55px;
+    margin-left: 34px;
+  }
+  /* line 44, ../sass/tablet.sass */
+  .aside li {
+    padding-top: 12px;
+  }
+  /* line 46, ../sass/tablet.sass */
+  .aside li:first-child {
+    padding-top: 0;
+  }
+  /* line 48, ../sass/tablet.sass */
+  .aside .expetrises:before {
+    content: none;
+  }
+
+  /* line 52, ../sass/tablet.sass */
+  .content {
+    display: block;
+    margin: 19px 370px 10px 15px;
+  }
+
+  /* line 56, ../sass/tablet.sass */
+  .section {
+    width: 545px;
+    padding: 10px 10px 0;
+  }
+  /* line 60, ../sass/tablet.sass */
+  .section .section_top {
+    display: inline-block;
+    width: 425px;
+    top: 2px;
+    margin-bottom: 50px;
+  }
+  /* line 65, ../sass/tablet.sass */
+  .section .section_top .name {
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+  /* line 68, ../sass/tablet.sass */
+  .section .section_top .orders {
+    margin-right: 35px;
+  }
+  /* line 70, ../sass/tablet.sass */
+  .section .section_bottom {
+    font-size: 12px;
+    width: 450px;
+    margin-left: 100px;
+    margin-right: 0;
+  }
+  /* line 75, ../sass/tablet.sass */
+  .section .section_bottom .first_block {
+    display: inline-block;
+    width: 210px;
+    margin-right: 10px;
+  }
+  /* line 80, ../sass/tablet.sass */
+  .section .section_bottom .second_block {
+    display: inline-block;
+    width: 210px;
+    vertical-align: top;
+    padding-right: 0;
+  }
+  /* line 85, ../sass/tablet.sass */
+  .section .avatar {
+    margin-right: 15px;
+    display: inline-block;
+  }
+  /* line 88, ../sass/tablet.sass */
+  .section .hire {
+    width: 65px;
+    height: 25px;
+  }
+  /* line 92, ../sass/tablet.sass */
+  .section .verified {
+    margin-top: -70px;
+  }
+}

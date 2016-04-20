@@ -1,0 +1,867 @@
+/* line 5, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/*** DESKTOP DESKTOP DESKTOP**
+ * ================================================== */
+/* line 7, ../sass/screen.sass */
+.container {
+  max-width: 1280px;
+  font-family: "OpenSans-Semibold", sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin: 10px auto;
+  border: 1px solid #efefef;
+  background-color: #f7f9fa;
+}
+
+/* line 16, ../sass/screen.sass */
+header {
+  height: 85px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #efefef;
+  background-color: #fff;
+}
+
+/* line 23, ../sass/screen.sass */
+.header__logo {
+  position: relative;
+  width: 250px;
+  float: left;
+}
+/* line 28, ../sass/screen.sass */
+.header__logo .logo_owl {
+  padding-left: 30px;
+  padding-top: 23px;
+}
+/* line 31, ../sass/screen.sass */
+.header__logo .logo_text {
+  position: absolute;
+  padding-left: 10px;
+  padding-top: 32px;
+}
+
+/* line 36, ../sass/screen.sass */
+.header_nav {
+  float: left;
+  width: 300px;
+  margin-left: 12px;
+}
+/* line 40, ../sass/screen.sass */
+.header_nav p {
+  display: inline-block;
+  margin-right: 15px;
+}
+/* line 44, ../sass/screen.sass */
+.header_nav a {
+  text-decoration: none;
+  font-weight: 600;
+  display: block;
+  color: #2e3c44;
+}
+/* line 49, ../sass/screen.sass */
+.header_nav a.active {
+  background-color: #efefef;
+  padding: 36px 26px 32px 26px;
+  color: #000;
+}
+
+/* line 54, ../sass/screen.sass */
+.header_login {
+  float: right;
+  margin-right: 30px;
+  margin-top: 26px;
+}
+
+/* line 58, ../sass/screen.sass */
+.header_login__text {
+  display: inline-block;
+  font-weight: 600;
+  color: #2e3c44;
+  margin-right: 20px;
+}
+
+/* line 64, ../sass/screen.sass */
+.header_form {
+  display: inline-block;
+}
+/* line 66, ../sass/screen.sass */
+.header_form p {
+  display: inline-block;
+  font-weight: 600;
+  color: #2e3c44;
+}
+/* line 71, ../sass/screen.sass */
+.header_form input {
+  border-radius: 5px;
+  background-color: #7ed321;
+  border: none;
+  padding: 8px 31px;
+  color: #fff;
+  font-size: 18px;
+  font-family: "OpenSans-Semibold";
+  letter-spacing: 0.3px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+/* line 82, ../sass/screen.sass */
+.header_form input:hover {
+  background-color: #71c01a;
+}
+/* line 85, ../sass/screen.sass */
+.header_form input[value*="client"] {
+  background-color: #0077ff;
+}
+/* line 87, ../sass/screen.sass */
+.header_form input[value*="client"]:hover {
+  background-color: #0169df;
+}
+
+/* line 90, ../sass/screen.sass */
+.contentmart {
+  margin-top: 34px;
+  margin-left: 111px;
+  font-weight: 600;
+}
+/* line 94, ../sass/screen.sass */
+.contentmart h3 {
+  color: #5ba6fc;
+  font-size: 14px;
+}
+/* line 97, ../sass/screen.sass */
+.contentmart h3 span {
+  color: #000;
+}
+/* line 99, ../sass/screen.sass */
+.contentmart h1 {
+  padding-top: 5px;
+  font-size: 26px;
+}
+
+/* line 103, ../sass/screen.sass */
+.open_aside {
+  display: none;
+}
+
+/* line 105, ../sass/screen.sass */
+.close_aside {
+  display: none;
+}
+
+/* line 107, ../sass/screen.sass */
+.aside {
+  width: 340px;
+  float: right;
+  margin-top: -33px;
+}
+/* line 112, ../sass/screen.sass */
+.aside h2 {
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+/* line 118, ../sass/screen.sass */
+.aside h2:first-child {
+  margin-top: 0;
+}
+/* line 120, ../sass/screen.sass */
+.aside .expetrises:before, .aside .categories:before, .aside .languages:before, .aside .country:before, .aside .cities:before {
+  content: url(../img/cap.png);
+  position: relative;
+  top: 4px;
+  padding-right: 11px;
+}
+/* line 125, ../sass/screen.sass */
+.aside .categories:before {
+  content: url(../img/categories.png);
+  padding-right: 16px;
+}
+/* line 129, ../sass/screen.sass */
+.aside .languages:before {
+  content: url(../img/languages.png);
+  padding-right: 7px;
+}
+/* line 133, ../sass/screen.sass */
+.aside .country:before {
+  content: url(../img/country.png);
+  padding-right: 12px;
+}
+/* line 137, ../sass/screen.sass */
+.aside .cities:before {
+  content: url(../img/cities.png);
+  padding-right: 18px;
+}
+/* line 142, ../sass/screen.sass */
+.aside ul {
+  padding-top: 5px;
+  padding-left: 35px;
+}
+/* line 146, ../sass/screen.sass */
+.aside li {
+  padding-top: 14px;
+}
+/* line 149, ../sass/screen.sass */
+.aside a {
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "OpenSans", sans-serif;
+  font-weight: 600;
+  color: #5ba6fc;
+}
+/* line 155, ../sass/screen.sass */
+.aside a:hover {
+  color: #0077ff;
+}
+
+/* line 159, ../sass/screen.sass */
+.content {
+  display: block;
+  margin: 19px 370px 10px 79px;
+}
+
+/* line 163, ../sass/screen.sass */
+.section {
+  width: 780px;
+  background-color: #fff;
+  padding: 20px 28px 0;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+/* line 169, ../sass/screen.sass */
+.section .avatar {
+  display: inline-block;
+  width: 82px;
+  position: relative;
+  top: 10px;
+  margin-right: 20px;
+}
+/* line 175, ../sass/screen.sass */
+.section .avatar.hasan:after {
+  content: url(../img/small_owl.png);
+  position: relative;
+  bottom: 20px;
+  left: 60px;
+}
+/* line 180, ../sass/screen.sass */
+.section .avatar.oleg:after {
+  content: url(../img/small_owl.png);
+  position: relative;
+  bottom: 20px;
+  left: 60px;
+}
+/* line 186, ../sass/screen.sass */
+.section .tooltips {
+  cursor: help;
+}
+/* line 188, ../sass/screen.sass */
+.section .tooltips:before {
+  background: #243341;
+  border-radius: 8px 8px 8px 0px;
+  box-shadow: 1px 1px 10px black;
+  content: attr(data-tooltips);
+  margin-top: -30px;
+  margin-left: 25px;
+  font-size: 12px;
+  opacity: 0;
+  padding: 3px 9px;
+  position: absolute;
+  visibility: hidden;
+  transition: all 0.4s ease-in-out;
+  color: #fff;
+}
+/* line 202, ../sass/screen.sass */
+.section .tooltips:hover::before {
+  opacity: 1;
+  visibility: visible;
+  z-index: 99999;
+}
+/* line 206, ../sass/screen.sass */
+.section .tooltip {
+  cursor: help;
+}
+/* line 208, ../sass/screen.sass */
+.section .tooltip:after {
+  width: 120px;
+  background: #243341;
+  border-radius: 8px 8px 8px 0px;
+  box-shadow: 1px 1px 10px black;
+  color: #fff;
+  content: attr(data-tooltip);
+  margin-top: -65px;
+  opacity: 0;
+  padding: 3px 7px;
+  position: absolute;
+  visibility: hidden;
+  transition: all 0.4s ease-in-out;
+}
+/* line 221, ../sass/screen.sass */
+.section .tooltip:hover::after {
+  opacity: 1;
+  visibility: visible;
+  z-index: 99999;
+}
+/* line 226, ../sass/screen.sass */
+.section .verified {
+  display: block;
+  position: absolute;
+  margin-top: -25px;
+  margin-left: 15px;
+  font-size: 11px;
+  color: #6ab31b;
+}
+/* line 233, ../sass/screen.sass */
+.section .verified span {
+  color: #6ab31b;
+  font-size: 8px;
+}
+/* line 237, ../sass/screen.sass */
+.section .name {
+  display: inline-block;
+  margin-right: 22px;
+}
+/* line 240, ../sass/screen.sass */
+.section .name p {
+  font-weight: 700;
+  font-size: 15px;
+}
+/* line 243, ../sass/screen.sass */
+.section .name p:after {
+  content: url(../img/india_flag.png);
+  padding-left: 7px;
+  cursor: pointer;
+}
+/* line 247, ../sass/screen.sass */
+.section .name .ukr:after {
+  content: url(../img/ukr_flag.png);
+}
+/* line 250, ../sass/screen.sass */
+.section span {
+  font-size: 10px;
+  color: #434343;
+}
+/* line 253, ../sass/screen.sass */
+.section .star, .section .advanced, .section .orders, .section .portfolio {
+  display: inline-block;
+  margin-right: 18px;
+}
+/* line 256, ../sass/screen.sass */
+.section .star img, .section .advanced img, .section .orders img, .section .portfolio img {
+  cursor: pointer;
+  display: inline-block;
+}
+/* line 262, ../sass/screen.sass */
+.section .advanced p {
+  font-weight: 700;
+  font-size: 15px;
+}
+/* line 265, ../sass/screen.sass */
+.section .orders {
+  margin-right: 95px;
+}
+/* line 268, ../sass/screen.sass */
+.section .orders.oleg {
+  margin-right: 33px;
+}
+/* line 270, ../sass/screen.sass */
+.section .orders p {
+  font-weight: 700;
+  font-size: 15px;
+}
+/* line 273, ../sass/screen.sass */
+.section .portfolio {
+  cursor: pointer;
+  padding-right: 10px;
+}
+/* line 277, ../sass/screen.sass */
+.section .portfolio p {
+  font-weight: 700;
+  font-size: 15px;
+  color: #0077ff;
+}
+/* line 281, ../sass/screen.sass */
+.section .portfolio span {
+  color: #0077ff;
+  font-weight: 600;
+}
+/* line 285, ../sass/screen.sass */
+.section .hire {
+  background-color: #0077ff;
+  border: none;
+  border-radius: 4px;
+  width: 85px;
+  height: 34px;
+  color: #fff;
+  position: relative;
+  bottom: 7px;
+  cursor: pointer;
+  margin-right: 0;
+}
+/* line 296, ../sass/screen.sass */
+.section .hire:hover {
+  background-color: #0661c8;
+}
+/* line 298, ../sass/screen.sass */
+.section .section_top {
+  display: inline-block;
+  position: relative;
+  top: -45px;
+  width: 666px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+/* line 306, ../sass/screen.sass */
+.section .section_bottom {
+  width: 666px;
+  position: relative;
+  top: -35px;
+  margin-left: 105px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.7;
+  color: #2e3c44;
+}
+/* line 316, ../sass/screen.sass */
+.section .section_bottom .first_block {
+  display: inline-block;
+  width: 309px;
+  margin-right: 20px;
+}
+/* line 321, ../sass/screen.sass */
+.section .section_bottom .second_block {
+  display: inline-block;
+  width: 330px;
+  vertical-align: top;
+}
+
+/*** TABLET TABLET TABLET **
+ * ================================================== */
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
+  /* line 6, ../sass/tablet.sass */
+  .container {
+    width: 800px;
+  }
+
+  /* line 9, ../sass/tablet.sass */
+  header {
+    margin-bottom: 70px;
+  }
+
+  /* line 12, ../sass/tablet.sass */
+  .header__logo {
+    margin-left: 115px;
+  }
+
+  /* line 15, ../sass/tablet.sass */
+  .header_login {
+    margin: 25px 145px 40px 100px;
+  }
+
+  /* line 18, ../sass/tablet.sass */
+  .header_login__text {
+    display: none;
+  }
+
+  /* line 21, ../sass/tablet.sass */
+  .contentmart {
+    margin-left: 50px;
+    font-weight: 600;
+  }
+  /* line 24, ../sass/tablet.sass */
+  .contentmart h3 {
+    color: #5ba6fc;
+    font-size: 12px;
+  }
+  /* line 27, ../sass/tablet.sass */
+  .contentmart h3 span {
+    color: #000;
+  }
+  /* line 29, ../sass/tablet.sass */
+  .contentmart h1 {
+    padding-top: 5px;
+    font-size: 22px;
+  }
+
+  /* line 33, ../sass/tablet.sass */
+  .aside {
+    width: 220px;
+    float: right;
+    padding-right: 15px;
+  }
+  /* line 38, ../sass/tablet.sass */
+  .aside a {
+    font-size: 12px;
+  }
+  /* line 40, ../sass/tablet.sass */
+  .aside h2 {
+    font-size: 12px;
+    margin-top: 55px;
+    margin-left: 34px;
+  }
+  /* line 44, ../sass/tablet.sass */
+  .aside li {
+    padding-top: 12px;
+  }
+  /* line 46, ../sass/tablet.sass */
+  .aside li:first-child {
+    padding-top: 0;
+  }
+  /* line 48, ../sass/tablet.sass */
+  .aside .expetrises:before, .aside .categories:before, .aside .languages:before, .aside .country:before, .aside .cities:before {
+    content: none;
+  }
+
+  /* line 52, ../sass/tablet.sass */
+  .content {
+    display: block;
+    margin: 19px 370px 10px 15px;
+  }
+
+  /* line 56, ../sass/tablet.sass */
+  .section {
+    width: 545px;
+    padding: 10px 10px 0;
+  }
+  /* line 60, ../sass/tablet.sass */
+  .section .section_top {
+    display: inline-block;
+    width: 425px;
+    top: 2px;
+    margin-bottom: 50px;
+  }
+  /* line 65, ../sass/tablet.sass */
+  .section .section_top .name {
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+  /* line 68, ../sass/tablet.sass */
+  .section .section_top .orders {
+    margin-right: 35px;
+  }
+  /* line 70, ../sass/tablet.sass */
+  .section .section_bottom {
+    font-size: 12px;
+    width: 450px;
+    margin-left: 100px;
+    margin-right: 0;
+  }
+  /* line 75, ../sass/tablet.sass */
+  .section .section_bottom .first_block {
+    display: inline-block;
+    width: 210px;
+    margin-right: 10px;
+  }
+  /* line 80, ../sass/tablet.sass */
+  .section .section_bottom .second_block {
+    display: inline-block;
+    width: 210px;
+    vertical-align: top;
+    padding-right: 0;
+  }
+  /* line 85, ../sass/tablet.sass */
+  .section .avatar {
+    margin-right: 15px;
+    display: inline-block;
+  }
+  /* line 88, ../sass/tablet.sass */
+  .section .hire {
+    width: 65px;
+    height: 25px;
+  }
+  /* line 92, ../sass/tablet.sass */
+  .section .verified {
+    margin-top: -70px;
+  }
+}
+/*** PHONE PHONE PHONE **
+ * ================================================== */
+@media only screen and (min-width: 320px) and (max-width: 800px) {
+  /* line 5, ../sass/phone.sass */
+  .container {
+    width: 320px;
+    overflow: hidden;
+  }
+
+  /* line 8, ../sass/phone.sass */
+  header {
+    height: 60px;
+  }
+
+  /* line 11, ../sass/phone.sass */
+  .header__logo {
+    float: none;
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+  /* line 16, ../sass/phone.sass */
+  .header__logo .logo_owl {
+    padding-top: 10px;
+  }
+  /* line 18, ../sass/phone.sass */
+  .header__logo .logo_text {
+    padding-top: 20px;
+  }
+
+  /* line 21, ../sass/phone.sass */
+  .header_nav {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #ccc;
+  }
+  /* line 30, ../sass/phone.sass */
+  .header_nav a.active {
+    padding: 15px 20px;
+  }
+
+  /* line 33, ../sass/phone.sass */
+  .header_login {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-right: 0;
+    margin: 10px auto;
+  }
+  /* line 39, ../sass/phone.sass */
+  .header_login input {
+    margin-right: 0;
+  }
+  /* line 41, ../sass/phone.sass */
+  .header_login .header_login__writer {
+    padding-bottom: 10px;
+  }
+
+  /* line 43, ../sass/phone.sass */
+  .header_login__text {
+    display: none;
+  }
+
+  /* line 46, ../sass/phone.sass */
+  .open_aside {
+    display: block;
+    background-color: #0077ff;
+    width: 15px;
+    padding: 7px 15px;
+    border-radius: 5px 0 0 10px;
+    position: relative;
+    right: -273px;
+    bottom: 38px;
+    color: #fff;
+    cursor: pointer;
+  }
+  /* line 57, ../sass/phone.sass */
+  .open_aside:hover {
+    background-color: #7ed321;
+  }
+
+  /* line 60, ../sass/phone.sass */
+  .close_aside {
+    position: absolute;
+    width: 10px;
+    right: 15px;
+    top: 10px;
+    cursor: pointer;
+    font-weight: 900;
+  }
+
+  /* line 70, ../sass/phone.sass */
+  .aside {
+    display: none;
+    position: absolute;
+    margin-top: 0;
+    background-color: #7ed321;
+    width: 320px;
+    z-index: 9999;
+    padding-top: 15px;
+  }
+  /* line 78, ../sass/phone.sass */
+  .aside a {
+    color: #4e4b4b;
+  }
+  /* line 80, ../sass/phone.sass */
+  .aside h2 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  /* line 83, ../sass/phone.sass */
+  .aside ul {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  /* line 86, ../sass/phone.sass */
+  .clearfix {
+    clear: both;
+  }
+
+  /* line 88, ../sass/phone.sass */
+  .contentmart {
+    display: block;
+    margin-left: 15px;
+    font-weight: 600;
+  }
+  /* line 93, ../sass/phone.sass */
+  .contentmart h3 {
+    color: #5ba6fc;
+    font-size: 11px;
+  }
+  /* line 96, ../sass/phone.sass */
+  .contentmart h3 span {
+    color: #000;
+  }
+  /* line 98, ../sass/phone.sass */
+  .contentmart h1 {
+    padding-top: 2px;
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+
+  /* line 102, ../sass/phone.sass */
+  .content {
+    display: block;
+    width: 320px;
+    margin: 0;
+  }
+  /* line 106, ../sass/phone.sass */
+  .content .section {
+    width: 320px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  /* line 112, ../sass/phone.sass */
+  .content .section .verified {
+    margin-top: -31px;
+    margin-left: 196px;
+  }
+  /* line 115, ../sass/phone.sass */
+  .content .section .avatar {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    width: 100%;
+  }
+  /* line 120, ../sass/phone.sass */
+  .content .section .avatar.hasan:after {
+    bottom: 0;
+    left: -19px;
+  }
+  /* line 123, ../sass/phone.sass */
+  .content .section .avatar.oleg:after {
+    bottom: 0;
+    left: -19px;
+  }
+  /* line 126, ../sass/phone.sass */
+  .content .section .section_top {
+    width: 320px;
+    display: block;
+    top: 15px;
+    padding-left: 5px;
+  }
+  /* line 131, ../sass/phone.sass */
+  .content .section .section_top .name {
+    padding-bottom: 15px;
+    padding-right: 5px;
+  }
+  /* line 134, ../sass/phone.sass */
+  .content .section .section_top .orders {
+    float: left;
+    padding-left: 10px;
+  }
+  /* line 137, ../sass/phone.sass */
+  .content .section .section_top .portfolio {
+    float: right;
+    padding-right: 0;
+    top: 5px;
+  }
+  /* line 141, ../sass/phone.sass */
+  .content .section .section_top .hire {
+    position: relative;
+    bottom: 31px;
+    right: 8px;
+  }
+  /* line 145, ../sass/phone.sass */
+  .content .section .section_bottom {
+    box-sizing: border-box;
+    padding: 0 10px;
+    width: 320px;
+    top: 20px;
+    margin: 0;
+  }
+  /* line 152, ../sass/phone.sass */
+  .content .section .section_bottom .first_block {
+    width: auto;
+    margin: 0 0 10px;
+  }
+  /* line 155, ../sass/phone.sass */
+  .content .section .section_bottom .second_block {
+    border-top: 1px dashed #ccc;
+    width: auto;
+    padding: 10px 0 30px 0;
+  }
+}

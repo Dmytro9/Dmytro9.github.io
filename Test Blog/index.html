@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Тестовый блог</title>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" ></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.5.3/jquery-ui.min.js" ></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#featured > ul").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 5000, true);
+	});
+</script>
+        
+    </head>
+    <body>
+    
+    <div class="wrap">
+        <div class="header">
+            <div class="header_top">
+                <ul class="navigation">
+                    <li><a href="#" class="select">Главная</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Сервисы</a></li>
+                    <li><a href="#">Портфолио</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+               
+                    <form class="search">
+                        <input type="text" name="s" class="search_text"></input>
+                        <input type="submit" value class="go"></input>
+                    </form>
+               
+                <div class="rss">
+                    <a href="#"><span>RSS блога</span><img src="img/images/rss.png" alt="RSS блога" width="17px"></a>
+                </div><!--end rss-->
+             
+            </div><!--end header_top-->
+            <div class="header_bottom">
+              <div class="logo">
+                <h1>Наш новый блог</h1>
+                <p class="slogan">Здесь будет слоган!</p>
+                </div>
+                <p class="description">Здесь будет интересное описание для нашего блога!</p>
+            </div><!--end header_bottom-->
+        </div><!--end header-->
+        
+        <div class="slider">
+                   <div id="featured" >  
+            <ul class="ui-tabs-nav">  
+                <li class="ui-tabs-nav-item ui-tabs-selected" id="nav-fragment-1"><a href="#fragment-1"><img                                src="img/slider1.png" alt="" /><span>Конструктивный показ баннера</span></a></li>  
+                <li class="ui-tabs-nav-item" id="nav-fragment-2"><a href="#fragment-2"><img src="img/slider2.png" alt="" />             <span>Коллективный код: компульсивность или идентификация</span></a></li>  
+                <li class="ui-tabs-nav-item" id="nav-fragment-3"><a href="#fragment-3"><img src="img/slider3.png" alt="" />             <span>35 Amazing Logo Designs</span></a></li>  
+            </ul>  
+            <!-- First Content -->  
+            <div id="fragment-1" class="ui-tabs-panel" style="">  
+                <img src="img/slider1.png" alt="" />  
+                <div class="info" >  
+                <h2><a href="#" >Конструктивный показ баннера</a></h2>  
+                <p>Предсознательное отталкивает закон, что лишний раз подтверждает правоту З.Фрейда. ....<a href="#" >read                  more</a></p>  
+                </div>  
+            </div>  
+            <!-- Second Content -->  
+            <div id="fragment-2" class="ui-tabs-panel ui-tabs-hide" style="">  
+                <img src="img/slider2.png" alt="" />  
+                <div class="info" >  
+                <h2><a href="#" >Коллективный код: компульсивность или идентификация</a></h2>  
+                <p>Закон катастрофично опровергает законодательный объект права, учитывая недостаточную теоретическую                          проработанность этой отрасли права....<a href="#" >read more</a></p>  
+                </div>  
+            </div>  
+            <!-- Third Content -->  
+            <div id="fragment-3" class="ui-tabs-panel ui-tabs-hide" style="">  
+                <img src="img/slider3.png" alt="" />  
+                <div class="info" >  
+                <h2><a href="#" >Конституционный обычай делового оборота: гипотеза и теории</a></h2>  
+                <p>Банкротство налогооблагаемо. Франшиза, учитывая отсутствие в законе норм, посвященных данному вопросу,                       формирует бытовой подряд,...<a href="#" >read more</a></p>
+                </div>  
+            </div>  
+        </div> 
+        </div><!--end slider-->
+        
+        <div class="container">
+        
+        <div class="content">
+            <p class="content_header">Последние записи</p>
+            <div class="post">
+                <div class="phead">
+                    <h2><a href="#">Заголовок поста1</a></h2>
+                    <div class="meta_top">
+                        <span class="cat">Категории: <a href="#">Категория один, категория два</a></span>
+                        <span class="date">Дата:<span class="date_text">12 октября 2011г.</span></span>
+                    </div>
+                </div>
+                <div class="entry">
+                    <img src="img/post_img_one.jpg" alt="изображение поста"/>
+                    <p>
+                        Математическое моделирование однозначно показывает, что матожидание развивает математический                               анализ, при этом, вместо 13 можно взять любую другую константу. 
+                    </p>
+                    <a href="#" class="more_link">Читать далее</a>
+                </div>
+                
+                <div class="meta_bottom">
+                    <span class="author">Автор: admin</span><br>
+                    <span class="com">Комментариев: 10</span>
+                </div>
+            </div><!--end post-->   
+            <div class="post">
+                <div class="phead">
+                    <h2><a href="#">Заголовок поста2</a></h2>
+                    <div class="meta_top">
+                        <span class="cat">Категории: <a href="#">Категория один, категория два</a></span>
+                        <span class="date">Дата:<span class="date_text">12 октября 2011г.</span></span>
+                    </div>
+                </div>
+                <div class="entry">
+                    <img src="img/post_img_two.jpg" alt="изображение поста"/>
+                    <p>
+                        Математическое моделирование однозначно показывает, что матожидание развивает математический                               анализ, при этом, вместо 13 можно взять любую другую константу. Бесконечно малая величина,                                 общеизвестно, очевидна не для всех. Стоит отметить, что теорема очевидна не для всех. Замкнутое                             множество транслирует изоморфный расходящийся ряд, дальнейшие выкладки оставим студентам в качестве                         несложной домашней работы. Аффинное преобразование естественно нейтрализует расходящийся ряд.
+                    </p>
+                    <a href="#" class="more_link">Читать далее</a>
+                </div>
+                
+                <div class="meta_bottom">
+                    <span class="author">Автор: admin</span><br>
+                    <span class="com">Комментариев: 10</span>
+                </div>
+            </div><!--end post-->
+            <div class="post">
+                <div class="phead">
+                    <h2><a href="#">Заголовок поста3</a></h2>
+                    <div class="meta_top">
+                        <span class="cat">Категории: <a href="#">Категория один, категория два</a></span>
+                        <span class="date">Дата:<span class="date_text">12 октября 2011г.</span></span>
+                    </div>
+                </div>
+                <div class="entry">
+                    <img src="img/post_img_three.jpg" alt="изображение поста"/>
+                    <p>
+                        Математическое моделирование однозначно показывает, что матожидание развивает математический                               анализ, при этом, вместо 13 можно взять любую другую константу. Бесконечно малая величина,                                 общеизвестно, очевидна не для всех. Стоит отметить, что теорема очевидна не для всех. Замкнутое                             множество транслирует изоморфный расходящийся ряд, дальнейшие выкладки оставим студентам в качестве                         несложной домашней работы. Аффинное преобразование естественно нейтрализует расходящийся ряд.
+                    </p>
+                    <a href="#" class="more_link">Читать далее</a>
+                </div>
+                
+                <div class="meta_bottom">
+                    <span class="author">Автор: admin</span><br>
+                    <span class="com">Комментариев: 10</span>
+                </div>
+            </div><!--end post--> 
+        </div><!--end content-->
+        
+        <div class="sidebar">
+            <div class="section">
+                <h3><span>Об авторе блога</span></h3>
+                <img src="img/author_photo.jpg" alt="фото автора блога"/>
+                <p>
+                    Замкнутое множество переворачивает убывающий математический анализ, что неудивительно.
+                </p>
+            </div>
+             <div class="section">
+                 <h3><span>Спонсоры</span></h3>
+                 <img src="img/adsense_block.jpg" alt="реклама на блоге" />
+                 <img src="img/adsense_block.jpg" alt="реклама на блоге" />
+            </div>
+             <div class="section">
+                 <h3><span>Рубрики блога</span></h3>
+                 <ul>
+                     <li><a href="#">Рубрика1</a></li>
+                     <li><a href="#">Рубрика2</a></li>
+                     <li><a href="#">Рубрика3</a></li>
+                     <li><a href="#">Рубрика4</a></li>
+                     <li><a href="#">Рубрика5</a></li>
+                     <li><a href="#">Рубрика6</a></li>
+                 </ul>
+            </div>
+        </div><!--end sidebar-->
+            <div class="clear"></div>
+        <div class="footer">
+            <div class="footer_top">
+                <div class="footer_block">
+                    <h3>Ссылки</h3>
+                    <ul>
+                        <li><a href="#">Ссылка1</a></li>
+                        <li><a href="#">Ссылка2</a></li>
+                        <li><a href="#">Ссылка3</a></li>
+                        <li><a href="#">Ссылка4</a></li>
+                        <li><a href="#">Ссылка5</a></li>
+                        <li><a href="#">Ссылка6</a></li>
+                    </ul>
+                </div>
+                 <div class="footer_block">
+                     <h3>Найти меня на:</h3>
+                     <a href="#"><img src="img/images/facebook.png" alt="facebook" /></a>
+                     <a href="#"><img src="img/images/Drawing2.png" alt="music" /></a>
+                     <a href="#"><img src="img/images/Drawi.png" alt="twitter" /></a>
+                     <a href="#"><img src="img/images/twitter.png" alt="mySpace" /></a>
+                     <a href="#"><img src="img/images/rss.png" alt="rss" /></a>
+                </div>
+                
+                 <div class="footer_block">
+                     <h3>Новое на сайте</h3>
+                     <ul>
+                        <li><a href="#">Ссылка1</a></li>
+                        <li><a href="#">Ссылка2</a></li>
+                        <li><a href="#">Ссылка3</a></li>
+                        <li><a href="#">Ссылка4</a></li>
+                        <li><a href="#">Ссылка5</a></li>
+                        <li><a href="#">Ссылка6</a></li>
+                     </ul>
+                </div>
+                 <div class="clear"></div>
+            </div><!--end footer_top-->
+            
+             <div class="footer_bottom">
+                    <ul class="footer_nav">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Сервисы</a></li>
+                    <li><a href="#">Портфолио</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+                 <p>Copyright 2011 - <a href="#">Brilliante</a> - All rights reserved</p>
+                  <div class="clear"></div>
+            </div>
+            
+        </div><!--end footer-->
+
+        </div><!--end container-->
+    
+    </div><!--end wrap-->
+ 
+    </body>
+</html>

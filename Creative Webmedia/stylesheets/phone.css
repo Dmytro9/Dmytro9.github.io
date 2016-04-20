@@ -1,0 +1,230 @@
+/*** PHONE PHONE PHONE **
+ * ================================================== */
+@media only screen and (min-width: 320px) and (max-width: 800px) {
+  /* line 5, ../sass/phone.sass */
+  .container {
+    width: 320px;
+    overflow: hidden;
+  }
+
+  /* line 8, ../sass/phone.sass */
+  header {
+    height: 60px;
+  }
+
+  /* line 11, ../sass/phone.sass */
+  .header__logo {
+    float: none;
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+  /* line 16, ../sass/phone.sass */
+  .header__logo .logo_owl {
+    padding-top: 10px;
+  }
+  /* line 18, ../sass/phone.sass */
+  .header__logo .logo_text {
+    padding-top: 20px;
+  }
+
+  /* line 21, ../sass/phone.sass */
+  .header_nav {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #ccc;
+  }
+  /* line 30, ../sass/phone.sass */
+  .header_nav a.active {
+    padding: 15px 20px;
+  }
+
+  /* line 33, ../sass/phone.sass */
+  .header_login {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-right: 0;
+    margin: 10px auto;
+  }
+  /* line 39, ../sass/phone.sass */
+  .header_login input {
+    margin-right: 0;
+  }
+  /* line 41, ../sass/phone.sass */
+  .header_login .header_login__writer {
+    padding-bottom: 10px;
+  }
+
+  /* line 43, ../sass/phone.sass */
+  .header_login__text {
+    display: none;
+  }
+
+  /* line 46, ../sass/phone.sass */
+  .open_aside {
+    display: block;
+    background-color: #0077ff;
+    width: 15px;
+    padding: 7px 15px;
+    border-radius: 5px 0 0 10px;
+    position: relative;
+    right: -273px;
+    bottom: 38px;
+    color: #fff;
+    cursor: pointer;
+  }
+  /* line 57, ../sass/phone.sass */
+  .open_aside:hover {
+    background-color: #7ed321;
+  }
+
+  /* line 60, ../sass/phone.sass */
+  .close_aside {
+    position: absolute;
+    width: 10px;
+    right: 15px;
+    top: 10px;
+    cursor: pointer;
+    font-weight: 900;
+  }
+
+  /* line 70, ../sass/phone.sass */
+  .aside {
+    display: none;
+    position: absolute;
+    margin-top: 0;
+    background-color: #7ed321;
+    width: 320px;
+    z-index: 9999;
+    padding-top: 15px;
+  }
+  /* line 78, ../sass/phone.sass */
+  .aside a {
+    color: #4e4b4b;
+  }
+  /* line 80, ../sass/phone.sass */
+  .aside h2 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  /* line 83, ../sass/phone.sass */
+  .aside ul {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  /* line 86, ../sass/phone.sass */
+  .clearfix {
+    clear: both;
+  }
+
+  /* line 88, ../sass/phone.sass */
+  .contentmart {
+    display: block;
+    margin-left: 15px;
+    font-weight: 600;
+  }
+  /* line 93, ../sass/phone.sass */
+  .contentmart h3 {
+    color: #5ba6fc;
+    font-size: 11px;
+  }
+  /* line 96, ../sass/phone.sass */
+  .contentmart h3 span {
+    color: #000;
+  }
+  /* line 98, ../sass/phone.sass */
+  .contentmart h1 {
+    padding-top: 2px;
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+
+  /* line 102, ../sass/phone.sass */
+  .content {
+    display: block;
+    width: 320px;
+    margin: 0;
+  }
+  /* line 106, ../sass/phone.sass */
+  .content .section {
+    width: 320px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  /* line 112, ../sass/phone.sass */
+  .content .section .verified {
+    margin-top: -31px;
+    margin-left: 196px;
+  }
+  /* line 115, ../sass/phone.sass */
+  .content .section .avatar {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    width: 100%;
+  }
+  /* line 120, ../sass/phone.sass */
+  .content .section .avatar.hasan:after {
+    bottom: 0;
+    left: -19px;
+  }
+  /* line 123, ../sass/phone.sass */
+  .content .section .avatar.oleg:after {
+    bottom: 0;
+    left: -19px;
+  }
+  /* line 126, ../sass/phone.sass */
+  .content .section .section_top {
+    width: 320px;
+    display: block;
+    top: 15px;
+    padding-left: 5px;
+  }
+  /* line 131, ../sass/phone.sass */
+  .content .section .section_top .name {
+    padding-bottom: 15px;
+    padding-right: 5px;
+  }
+  /* line 134, ../sass/phone.sass */
+  .content .section .section_top .orders {
+    float: left;
+    padding-left: 10px;
+  }
+  /* line 137, ../sass/phone.sass */
+  .content .section .section_top .portfolio {
+    float: right;
+    padding-right: 0;
+    top: 5px;
+  }
+  /* line 141, ../sass/phone.sass */
+  .content .section .section_top .hire {
+    position: relative;
+    bottom: 31px;
+    right: 8px;
+  }
+  /* line 145, ../sass/phone.sass */
+  .content .section .section_bottom {
+    box-sizing: border-box;
+    padding: 0 10px;
+    width: 320px;
+    top: 20px;
+    margin: 0;
+  }
+  /* line 152, ../sass/phone.sass */
+  .content .section .section_bottom .first_block {
+    width: auto;
+    margin: 0 0 10px;
+  }
+  /* line 155, ../sass/phone.sass */
+  .content .section .section_bottom .second_block {
+    border-top: 1px dashed #ccc;
+    width: auto;
+    padding: 10px 0 30px 0;
+  }
+}

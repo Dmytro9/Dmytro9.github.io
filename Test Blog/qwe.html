@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="slideStyle.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Документ без названия</title>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" ></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.5.3/jquery-ui.min.js" ></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#featured > ul").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 5000, true);
+	});
+</script>
+</head>
+
+<body>
+<div id="featured" >  
+    <ul class="ui-tabs-nav">  
+        <li class="ui-tabs-nav-item ui-tabs-selected" id="nav-fragment-1"><a href="#fragment-1"><img src="img/slider1.png" alt="" /><span>Конструктивный показ баннера</span></a></li>  
+        <li class="ui-tabs-nav-item" id="nav-fragment-2"><a href="#fragment-2"><img src="img/slider2.png" alt="" /><span>Коллективный код: компульсивность или идентификация</span></a></li>  
+        <li class="ui-tabs-nav-item" id="nav-fragment-3"><a href="#fragment-3"><img src="img/slider3.png" alt="" /><span>35 Amazing Logo Designs</span></a></li>  
+    </ul>  
+    <!-- First Content -->  
+    <div id="fragment-1" class="ui-tabs-panel" style="">  
+        <img src="img/slider1.png" alt="" />  
+        <div class="info" >  
+        <h2><a href="#" >Конструктивный показ баннера</a></h2>  
+        <p>Предсознательное отталкивает закон, что лишний раз подтверждает правоту З.Фрейда. ....<a href="#" >read more</a></p>  
+        </div>  
+    </div>  
+    <!-- Second Content -->  
+    <div id="fragment-2" class="ui-tabs-panel ui-tabs-hide" style="">  
+        <img src="img/slider2.png" alt="" />  
+        <div class="info" >  
+        <h2><a href="#" >Коллективный код: компульсивность или идентификация</a></h2>  
+        <p>Закон катастрофично опровергает законодательный объект права, учитывая недостаточную теоретическую проработанность этой отрасли права....<a href="#" >read more</a></p>  
+        </div>  
+    </div>  
+    <!-- Third Content -->  
+    <div id="fragment-3" class="ui-tabs-panel ui-tabs-hide" style="">  
+        <img src="img/slider3.png" alt="" />  
+        <div class="info" >  
+        <h2><a href="#" >Конституционный обычай делового оборота: гипотеза и теории</a></h2>  
+        <p>Банкротство налогооблагаемо. Франшиза, учитывая отсутствие в законе норм, посвященных данному вопросу, формирует бытовой подряд, хотя законодательством может быть установлено иное....<a href="#" >read more</a></p>
+        </div>  
+    </div>  
+</div>  
+
+</div>
+</body>
+</html>
