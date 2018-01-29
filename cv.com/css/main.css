@@ -353,7 +353,10 @@ li:before {
   margin-top: 25px;
 }
 
-.send_message_button,
+.send_message_button {
+  display: none;
+}
+
 .special_button {
   margin-top: 25px;
   display: block;
