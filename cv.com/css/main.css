@@ -485,6 +485,10 @@ li:before {
   cursor: default;
 }
 
+.small {
+  font-size: 13px;
+}
+
 @media print {
   .no-print {
     display: none;
