@@ -1,0 +1,426 @@
+/* line 5, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 6, ../sass/screen.sass */
+html {
+  overflow-y: scroll;
+}
+
+/* line 9, ../sass/screen.sass */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 500;
+  color: #908f8f;
+  background: url("https://m1.behance.net/profiles2/211741/prosite/2-2035183-71aa3ce06a45c0e7d287e81a6311afc7.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: space;
+  background-color: #000;
+  background-attachment: fixed;
+  width: 100%;
+}
+
+/* line 23, ../sass/screen.sass */
+.container {
+  margin: 0 auto;
+  width: 740px;
+  height: auto;
+}
+
+/* line 30, ../sass/screen.sass */
+.header {
+  display: block;
+  position: relative;
+  margin: 30px 0;
+  color: #fff;
+}
+/* line 36, ../sass/screen.sass */
+.header .header__my__logo span {
+  position: absolute;
+  top: 1.5em;
+  font-size: 2.3em;
+  font-weight: 700;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #fff;
+}
+/* line 46, ../sass/screen.sass */
+.header .img__logo {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  background-color: #7f7f7f;
+  cursor: pointer;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+  margin-right: 25px;
+}
+/* line 55, ../sass/screen.sass */
+.header .img__logo:hover {
+  -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  filter: none;
+  filter: none;
+}
+/* line 58, ../sass/screen.sass */
+.header .header__my__name {
+  position: absolute;
+  top: 45px;
+  right: 0;
+  font-size: 0.9em;
+  letter-spacing: 0.3px;
+  font-weight: 600;
+  text-align: right;
+}
+
+/* line 71, ../sass/screen.sass */
+.menu {
+  float: left;
+  width: 120px;
+  padding: 15px 0;
+  margin-right: 20px;
+  font-size: 1em;
+  text-transform: uppercase;
+  line-height: 2;
+  font-weight: 500;
+  border-top: 1px dotted #434343;
+  border-bottom: 1px dotted #434343;
+}
+
+/* line 83, ../sass/screen.sass */
+.menu__link {
+  display: block;
+  color: #908f8f;
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+/* line 18, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
+.menu__link:visited {
+  color: #908f8f;
+}
+/* line 21, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
+.menu__link:focus {
+  color: #fff;
+}
+/* line 24, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
+.menu__link:hover {
+  color: #fff;
+}
+/* line 27, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
+.menu__link:active {
+  color: #fff;
+}
+/* line 89, ../sass/screen.sass */
+.menu__link.active {
+  color: #fff;
+}
+
+/* line 97, ../sass/screen.sass */
+.my__works {
+  display: block;
+  box-sizing: border-box;
+  width: 600px;
+  float: left;
+  padding: 24px 0;
+  border-top: 1px dotted #434343;
+  border-bottom: 1px dotted #434343;
+}
+/* line 106, ../sass/screen.sass */
+.my__works figure {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  padding-right: 15px;
+  padding-bottom: 12px;
+  filter: gray;
+  -webkit-filter: grayscale(100%) opacity(0.8);
+  -moz-filter: grayscale(100%) opacity(0.8);
+  -ms-filter: grayscale(100%) opacity(0.8);
+  -o-filter: grayscale(100%) opacity(0.8);
+  filter: grayscale(100%) opacity(0.8);
+  filter: grayscale(100%) opacity(0.8);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+/* line 116, ../sass/screen.sass */
+.my__works figure img {
+  display: block;
+}
+/* line 119, ../sass/screen.sass */
+.my__works figure:hover {
+  -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  filter: none;
+  filter: none;
+}
+/* line 122, ../sass/screen.sass */
+.my__works figure:hover figcaption {
+  left: 0%;
+}
+/* line 125, ../sass/screen.sass */
+.my__works figure:nth-child(3n+3) {
+  padding-right: 0;
+}
+/* line 128, ../sass/screen.sass */
+.my__works figcaption {
+  position: absolute;
+  bottom: 25px;
+  left: -100%;
+  background: #000;
+  padding: 2px 20px 2px 10px;
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  -ms-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+  letter-spacing: 0.5px;
+  font-size: 11px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+/* line 139, ../sass/screen.sass */
+.my__works a {
+  color: #fff;
+  text-decoration: none;
+}
+/* line 142, ../sass/screen.sass */
+.my__works a:hover {
+  text-decoration: underline;
+}
+
+/* line 151, ../sass/screen.sass */
+.cv {
+  display: none;
+  width: 600px;
+  float: right;
+  line-height: 1.8;
+  border-top: 1px dotted #434343;
+}
+
+/* line 158, ../sass/screen.sass */
+.cv__my__name {
+  padding-top: 5px;
+  font-size: 24px;
+  color: #d2d2d2;
+  text-align: left;
+}
+
+/* line 164, ../sass/screen.sass */
+.cv__summary__of__abilities, .cv__personal__qualities {
+  padding-top: 33px;
+  border-bottom: 1px dotted #434343;
+}
+
+/* line 168, ../sass/screen.sass */
+.cv__summary__of__abilities__info, .cv__personal__qualities__info {
+  text-align: left;
+  padding-top: 15px;
+  line-height: 2;
+  font-size: 13px;
+  margin-left: 200px;
+}
+
+/* line 217, ../sass/screen.sass */
+.cv__experience, .cv__education {
+  margin-top: 45px;
+  border-bottom: 1px dotted #434343;
+}
+
+/* line 221, ../sass/screen.sass */
+.cv__non__comercial, .cv__goit, .cv__besmart, .cv__broker, .cv__italy, .cv__ntu {
+  margin-top: 20px;
+}
+
+/* line 224, ../sass/screen.sass */
+.cv__non__comercial__date, .cv__goit__date, .cv__besmart__date, .cv__broker__date, .cv__italy__date, .cv__ntu__date, .cv__mti__company__date, .cv__dhl__company__date, .cv__avtogarant__company__date {
+  float: left;
+  color: #d2d2d2;
+  font-weight: 700;
+}
+
+/* line 228, ../sass/screen.sass */
+.cv__non__comercial__info, .cv__goit__info, .cv__besmart__info, .cv__broker__info, .cv__italy__info, .cv__ntu__info, .cv__mti__company__info, .cv__dhl__company__info, .cv__avtogarant__company__info {
+  float: right;
+  width: 400px;
+  text-align: left;
+}
+/* line 232, ../sass/screen.sass */
+.cv__non__comercial__info a, .cv__goit__info a, .cv__besmart__info a, .cv__broker__info a, .cv__italy__info a, .cv__ntu__info a, .cv__mti__company__info a, .cv__dhl__company__info a, .cv__avtogarant__company__info a {
+  text-decoration: none;
+  color: #d2d2d2;
+  font-weight: 700;
+  border-bottom: 1px dotted #fff;
+}
+/* line 237, ../sass/screen.sass */
+.cv__non__comercial__info a:hover, .cv__goit__info a:hover, .cv__besmart__info a:hover, .cv__broker__info a:hover, .cv__italy__info a:hover, .cv__ntu__info a:hover, .cv__mti__company__info a:hover, .cv__dhl__company__info a:hover, .cv__avtogarant__company__info a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+/* line 240, ../sass/screen.sass */
+.cv__mti__company, .cv__dhl__company {
+  margin-top: 40px;
+}
+
+/* line 244, ../sass/screen.sass */
+.cv__mti__company__info {
+  width: 400px;
+}
+
+/* line 247, ../sass/screen.sass */
+.cv__companies__name, .cv__academy__name {
+  color: #d2d2d2;
+  font-weight: 700;
+}
+
+/* line 250, ../sass/screen.sass */
+.cv__position {
+  text-decoration: underline;
+}
+
+/* line 257, ../sass/screen.sass */
+.cv__dhl__company__info {
+  width: 400px;
+}
+
+/* line 261, ../sass/screen.sass */
+.cv__avtogarant__company {
+  margin-top: 45px;
+}
+
+/* line 265, ../sass/screen.sass */
+.cv__avtogarant__company__info {
+  width: 400px;
+}
+
+/* line 273, ../sass/screen.sass */
+.border__bottom {
+  display: block;
+  padding-top: 20px;
+  border-bottom: 1px dotted #434343;
+}
+
+/* line 282, ../sass/screen.sass */
+.contact {
+  display: none;
+  width: 600px;
+  float: right;
+  color: #d2d2d2;
+  padding-bottom: 24px;
+  border-top: 1px dotted #434343;
+  border-bottom: 1px dotted #434343;
+}
+/* line 290, ../sass/screen.sass */
+.contact a {
+  color: #d2d2d2;
+  text-decoration: none;
+}
+/* line 293, ../sass/screen.sass */
+.contact a:hover {
+  text-decoration: underline;
+}
+/* line 295, ../sass/screen.sass */
+.contact p {
+  padding-top: 15px;
+  text-align: center;
+}
+
+/* line 303, ../sass/screen.sass */
+.footer {
+  display: block;
+  width: 600px;
+  float: right;
+  font-size: 12px;
+  color: #3b3b3b;
+  margin-top: 15px;
+  margin-bottom: 150px;
+}
+
+/* line 313, ../sass/screen.sass */
+.clearfix {
+  clear: both;
+}

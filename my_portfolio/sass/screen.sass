@@ -1,0 +1,314 @@
+@import compass/reset
+@import mixin
+@import "compass/typography/links/link-colors"
+@import variables
+
+html 
+	overflow-y: scroll
+
+body
+	font-family: Arial, sans-serif
+	font-size: 12px
+	line-height: 1.5
+	font-weight: 500
+	color: $primary-color
+	background: url('https://m1.behance.net/profiles2/211741/prosite/2-2035183-71aa3ce06a45c0e7d287e81a6311afc7.jpg')
+	background-position: top center
+	background-repeat: no-repeat
+	background-size: space
+	background-color: #000
+	background-attachment: fixed
+	width: 100%
+
+.container
+	margin: 0 auto
+	width: 740px
+	height: auto
+
+
+// BLOCK HEADER
+.header
+	display: block
+	position: relative
+	margin: 30px 0
+	color: #fff
+	.header__my__logo
+		span
+			position: absolute
+			top: 1.5em
+			font-size: 2.3em
+			font-weight: 700
+			letter-spacing: 6px
+			text-transform: uppercase
+			cursor: pointer
+			color: #fff
+			
+	.img__logo
+		+border-radius(50%)
+		border: 6px solid #fff
+		background-color: #7f7f7f
+		cursor: pointer
+		+filter(grayscale(100%))
+		+transition(all .8s)
+		margin-right: 25px
+
+		&:hover
+			+filter(none)
+	
+	.header__my__name
+		position: absolute
+		top: 45px
+		right: 0
+		font-size: .9em
+		letter-spacing: .3px
+		font-weight: 600
+		text-align: right
+// END BLOCK HEADER
+
+
+
+// BLOCK MENU
+.menu
+	float: left
+	width: 120px
+	padding: 15px 0
+	margin-right: 20px
+	font-size: 1em
+	text-transform: uppercase
+	line-height: 2
+	font-weight: 500
+	border-top: 1px dotted $border-color
+	border-bottom: 1px dotted $border-color
+
+.menu__link
+	display: block
+	+link-colors($primary-color, $link-color, $link-color, $primary-color, $link-color)
+	text-decoration: none
+	+transition(all .5s)	  
+
+	&.active
+		+link-colors($link-color)
+// END BLOCK MENU	
+
+
+
+
+// BLOCK MY WORKS
+.my__works
+	display: block
+	box-sizing: border-box
+	width: 600px
+	float: left
+	padding: 24px 0
+	border-top: 1px dotted $border-color
+	border-bottom: 1px dotted $border-color
+	
+	figure
+		display: inline-block 
+		position: relative
+		overflow: hidden
+		padding-right: 15px
+		padding-bottom: 12px
+		filter: gray
+		+filter(grayscale(100%) opacity(.8))
+		+transition(all 0.3s ease-in-out)
+
+		img
+			display: block
+
+		&:hover
+			+filter(none)
+	
+			figcaption
+				left: 0%
+
+		&:nth-child(3n+3)
+			padding-right: 0
+	
+	figcaption
+		position: absolute
+		bottom: 25px
+		left: -100%
+		background: #000
+		padding: 2px 20px 2px 10px
+		+border-radius(0 3px 3px 0)
+		letter-spacing: .5px
+		font-size: 11px
+		+transition(all 0.3s ease-in-out)
+
+	a
+		color: #fff
+		text-decoration: none
+		&:hover
+			text-decoration: underline	
+// END BLOCK MY WORKS
+			
+
+
+
+
+// BLOCK CV
+.cv
+	display: none
+	width: 600px
+	float: right
+	line-height: 1.8
+	border-top: 1px dotted $border-color
+	
+.cv__my__name
+	padding-top: 5px
+	font-size: 24px
+	color: $text-color
+	text-align: left
+
+.cv__summary__of__abilities
+	padding-top: 33px
+	border-bottom: 1px dotted $border-color
+	
+.cv__summary__of__abilities__info
+	text-align: left
+	padding-top: 15px
+	line-height: 2
+	font-size: 13px
+	margin-left: 200px
+
+.cv__education
+	@extend .cv__experience
+
+.cv__goit
+	@extend .cv__non__comercial
+.cv__goit__date
+	@extend .cv__non__comercial__date
+.cv__goit__info
+	@extend .cv__non__comercial__info
+.cv__academy__name
+	@extend .cv__companies__name
+
+.cv__besmart
+	@extend .cv__non__comercial
+.cv__besmart__date
+	@extend .cv__non__comercial__date
+.cv__besmart__info
+	@extend .cv__non__comercial__info
+
+.cv__broker
+	@extend .cv__non__comercial
+.cv__broker__date
+	@extend .cv__non__comercial__date
+.cv__broker__info
+	@extend .cv__non__comercial__info
+
+
+.cv__italy
+	@extend .cv__non__comercial
+.cv__italy__date
+	@extend .cv__non__comercial__date
+.cv__italy__info
+	@extend .cv__non__comercial__info
+
+.cv__ntu
+	@extend .cv__non__comercial
+.cv__ntu__date
+	@extend .cv__non__comercial__date
+.cv__ntu__info
+	@extend .cv__non__comercial__info
+
+
+.cv__experience
+	margin-top: 45px
+	border-bottom: 1px dotted $border-color
+
+.cv__non__comercial
+	margin-top: 20px
+
+.cv__non__comercial__date
+	float: left
+	color: $text-color
+	font-weight: 700
+.cv__non__comercial__info
+	float: right
+	width: 400px
+	text-align: left
+	a
+		text-decoration: none
+		color: $text-color
+		font-weight: 700
+		border-bottom: 1px dotted #fff
+		&:hover
+			border-bottom: 1px solid #fff
+
+.cv__mti__company
+	margin-top: 40px
+.cv__mti__company__date
+	@extend .cv__non__comercial__date
+.cv__mti__company__info
+	@extend .cv__non__comercial__info
+	width: 400px	
+.cv__companies__name
+	color: $text-color
+	font-weight: 700
+.cv__position
+	text-decoration: underline	
+
+.cv__dhl__company
+	@extend .cv__mti__company
+.cv__dhl__company__date
+	@extend .cv__non__comercial__date
+.cv__dhl__company__info
+	@extend .cv__non__comercial__info
+	width: 400px	
+
+.cv__avtogarant__company
+	margin-top: 45px
+.cv__avtogarant__company__date
+	@extend .cv__non__comercial__date
+.cv__avtogarant__company__info
+	@extend .cv__non__comercial__info
+	width: 400px	
+
+.cv__personal__qualities
+	@extend .cv__summary__of__abilities
+.cv__personal__qualities__info
+	@extend .cv__summary__of__abilities__info	
+.border__bottom
+	display: block
+	padding-top: 20px
+	border-bottom: 1px dotted $border-color		
+// END BLOCK CV
+
+
+
+// BLOCK CONTACT
+.contact
+	display: none
+	width: 600px
+	float: right
+	color: #d2d2d2
+	padding-bottom: 24px
+	border-top: 1px dotted $border-color
+	border-bottom: 1px dotted $border-color
+	a
+		color: $text-color
+		text-decoration: none
+		&:hover
+			text-decoration: underline
+	p
+		padding-top: 15px
+		text-align: center
+//  END BLOCK CONTACT
+
+
+
+// BLOCK FOOTER
+.footer
+	display: block
+	width: 600px
+	float: right
+	font-size: 12px
+	color: #3b3b3b
+	margin-top: 15px
+	margin-bottom: 150px				
+// END BLOCK FOOTER	
+
+.clearfix
+	clear: both
