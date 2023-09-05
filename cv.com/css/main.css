@@ -1,4 +1,3 @@
-@import url(http://weloveiconfonts.com/api/?family=entypo|fontawesome);
 /* entypo */
 [class*="entypo-"]:before {
   font-family: "entypo", sans-serif;
@@ -229,16 +228,19 @@ li:before {
   font-family: "Lato", Helvetica, sans-serif;
   cursor: pointer;
 }
-#left_col {
-  width: 260px;
-  float: left;
+
+.main {
+  display: flex;
 }
-#content_container {
+.left_col {
+  width: 260px;
+}
+.content_container {
   width: 699px;
   border-left: 1px solid #403f44;
   float: left;
 }
-#footer {
+.footer {
   width: 960px;
   height: 60px;
   border-top: 1px solid #403f44;
@@ -250,15 +252,20 @@ li:before {
 .logotype_name {
   text-transform: uppercase;
   font-size: 26px;
-  margin: 49px 0 0;
+  margin: 44px 0 0;
 }
+
+h1.logotype_name {
+  margin-bottom: 5px;
+}
+
 .logotype_occupation {
-  text-transform: uppercase;
-  margin-top: 5px;
   color: #5ce2af;
   font-size: 13px;
   letter-spacing: 2px;
-  text-align: center
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 2px;
 }
 
 .download_print_buttons {
@@ -426,12 +433,6 @@ li:before {
   padding: 0;
   padding: 0 5px;
 }
-.social_icons a span.invisible {
-  display: none;
-}
-.social_icons .social:hover {
-  color: #fff;
-}
 
 .footer_name {
   font-style: italic;
@@ -518,7 +519,7 @@ li:before {
   }
 
   .logotype_name {
-     margin-top: 10px; 
+     margin-top: -4px; 
   }
 }
 
